@@ -1,7 +1,10 @@
 Android
 PlayerPath?
-C:/Users/Evgenij/UnityProjects/VR - 171242/Build/scene.apk
+C:/Users/Evgenij/UnityProjects/VR - 171242/Build/vr.apk
 SceneListBegin?
+Assets/Scenes/startMenu.unity
+Assets/Scenes/startAgainMenu.unity
+Assets/Scenes/instructionsMenu.unity
 Assets/Scenes/scene.unity
 SceneListEnd?
 176f67aae4ec7273cfef37fd8876bd9a Assembly-CSharp.dll:.GvrDropdown
@@ -106,6 +109,7 @@ ff05dcdf90651c3d98a9cad3df5e471e UnityEngine.Timeline.dll:UnityEngine.Timeline.C
 92d7a83ea3c7404e484f3b2eed421855 UnityEngine.Timeline.dll:UnityEngine.Timeline.GroupTrack
 92d7a83ea3c7404e484f3b2eed421855 UnityEngine.Timeline.dll:UnityEngine.Timeline.PlayableTrack
 df374c01140c2d578bf70cbd60073d1d UnityEngine.Timeline.dll:UnityEngine.Timeline.TimelineAsset
+f3a1998c12094cfa958f9c74d0ea74ef Assembly-CSharp.dll:.PlayerJump
 05524b8f659e7bfe5756d1335fec24ba Assembly-CSharp.dll:GoogleVR.Demos.DemoInfoPanel
 65ccc5e6c5329a006e5b4f0effd4ff6c Assembly-CSharp.dll:.GvrScrollSettings
 05524b8f659e7bfe5756d1335fec24ba Assembly-CSharp.dll:GoogleVR.Demos.DemoSceneManager
@@ -226,4 +230,6 @@ b2945430dfd6bbdb5d77043b47bf85e7 Assembly-CSharp.dll:.GvrControllerReticleVisual
 d885ad79a6ef5bfe2ce10637aac0b8a0 Assembly-CSharp.dll:GoogleVR.VideoDemo.AutoPlayVideo
 c24d48a90352de3c42bed4347f59af59 Assembly-CSharp.dll:GoogleVR.Beta.GvrBetaControllerVisualMulti
 0f3d4bb7128a287827d041c696039525 Assembly-CSharp-firstpass.dll:UnityStandardAssets.Utility.AutoMobileShaderSwitch
-f3a1998c12094cfa958f9c74d0ea74ef Assembly-CSharp.dll:.PlayerJump
+05524b8f659e7bfe5756d1335fec24ba Assembly-CSharp.dll:.ChangeScene
+37dd7b3e87f8ddebac7d6c7d2f76437b Assembly-CSharp.dll:.GazeClick
+2b33457e820e7fe004585c42bda62af9 Assembly-CSharp.dll:.GameTimer

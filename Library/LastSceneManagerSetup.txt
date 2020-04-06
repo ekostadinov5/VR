@@ -1,4 +1,13 @@
 sceneSetups:
-- path: Assets/Scenes/scene.unity
+- path: Assets/Scenes/startMenu.unity
   isLoaded: 1
   isActive: 1
+- path: Assets/Scenes/startAgainMenu.unity
+  isLoaded: 0
+  isActive: 0
+- path: Assets/Scenes/instructionsMenu.unity
+  isLoaded: 0
+  isActive: 0
+- path: Assets/Scenes/scene.unity
+  isLoaded: 0
+  isActive: 0

@@ -241,10 +241,6 @@
     </ProjectReference>
   </ItemGroup>
   <ItemGroup>
-    <Compile Include="Assets\ChangeScene.cs" />
-    <Compile Include="Assets\EndGame.cs" />
-    <Compile Include="Assets\GameTimer.cs" />
-    <Compile Include="Assets\GazeClick.cs" />
     <Compile Include="Assets\GoogleVR\Beta\Demos\Scripts\DemoObjectController6DoF.cs" />
     <Compile Include="Assets\GoogleVR\Beta\Demos\Scripts\DemoSeeThroughController.cs" />
     <Compile Include="Assets\GoogleVR\Beta\Scripts\GvrBetaControllerInput.cs" />
@@ -369,11 +365,15 @@
     <Compile Include="Assets\GoogleVR\Scripts\Utilities\Internal\GvrCursorHelper.cs" />
     <Compile Include="Assets\GoogleVR\Scripts\Utilities\Internal\SuppressMemoryAllocationErrorAttribute.cs" />
     <Compile Include="Assets\GoogleVR\Scripts\Video\GvrVideoPlayerTexture.cs" />
-    <Compile Include="Assets\MoveObstacle.cs" />
-    <Compile Include="Assets\OpenDoor.cs" />
-    <Compile Include="Assets\PickObject.cs" />
-    <Compile Include="Assets\PlayerJump.cs" />
-    <Compile Include="Assets\PlayerWalk.cs" />
+    <Compile Include="Assets\Scripts\ChangeScene.cs" />
+    <Compile Include="Assets\Scripts\EndGame.cs" />
+    <Compile Include="Assets\Scripts\GameTimer.cs" />
+    <Compile Include="Assets\Scripts\GazeClick.cs" />
+    <Compile Include="Assets\Scripts\MoveObstacle.cs" />
+    <Compile Include="Assets\Scripts\OpenDoor.cs" />
+    <Compile Include="Assets\Scripts\PickObject.cs" />
+    <Compile Include="Assets\Scripts\PlayerJump.cs" />
+    <Compile Include="Assets\Scripts\PlayerWalk.cs" />
   </ItemGroup>
   <ItemGroup>
     <None Include="Assets\GoogleVR\Beta\Shaders\GvrSeeThroughUI.shader" />

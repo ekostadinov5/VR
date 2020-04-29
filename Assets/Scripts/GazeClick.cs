@@ -3,12 +3,12 @@ using UnityEngine.UI;
 using UnityEngine.Events;
 
 public class GazeClick : MonoBehaviour {
+    private bool status;
+    private float gazeTime;
+
     public Image timerImage;
     public float requiredTime;
     public UnityEvent click;
-
-    private bool status;
-    private float gazeTime;
 
     // Use this for initialization
     void Start()

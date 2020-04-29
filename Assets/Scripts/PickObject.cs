@@ -2,6 +2,7 @@
 
 public class PickObject : MonoBehaviour {
     private bool pickedUp;
+    private AudioSource manGruntSound;
 
     public GameObject cube;
     public GameObject parent;
@@ -12,6 +13,7 @@ public class PickObject : MonoBehaviour {
     // Use this for initialization
     void Start () {
         pickedUp = false;
+        manGruntSound = GetComponent<AudioSource>();
 
         cube.GetComponent<Rigidbody>().useGravity = true;
 	}
@@ -52,6 +54,8 @@ public class PickObject : MonoBehaviour {
             cube.transform.parent = parent.transform;
 
             pickedUp = true;
+
+            manGruntSound.Play();
         }
     }
 

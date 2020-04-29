@@ -3,20 +3,21 @@ using UnityEngine.Events;
 using UnityEngine.UI;
 
 public class MoveObstacle : MonoBehaviour {
+    private bool status;
+    private float gazeTime;
+    private AudioSource buttonClickSound;
+
     public GameObject obstacle;
 	public Image timerImage;
     public float requiredTime;
     public UnityEvent click;
-
-    private bool status;
-    private float gazeTime;
-    private bool clicked;
 
     // Use this for initialization
     void Start()
     {
         status = false;
         gazeTime = 0F;
+        buttonClickSound = GetComponent<AudioSource>();
     }
 
     // Update is called once per frame
@@ -29,6 +30,7 @@ public class MoveObstacle : MonoBehaviour {
         }
         if (gazeTime > requiredTime)
         {
+            gazeTime = 0;
             timerImage.fillAmount = 0;
             GetComponent<Renderer>().material.color = Color.green;
             click.Invoke();   
@@ -50,5 +52,6 @@ public class MoveObstacle : MonoBehaviour {
     public void Move()
     {
         obstacle.transform.position = new Vector3(-12, obstacle.transform.position.y, obstacle.transform.position.z);
+        buttonClickSound.Play();
     }
 }

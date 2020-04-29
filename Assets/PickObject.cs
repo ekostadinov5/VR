@@ -3,7 +3,7 @@
 public class PickObject : MonoBehaviour {
     private bool pickedUp;
 
-    public GameObject obj;
+    public GameObject cube;
     public GameObject parent;
     public Transform guide;
     public float upToggleAngle;
@@ -13,7 +13,7 @@ public class PickObject : MonoBehaviour {
     void Start () {
         pickedUp = false;
 
-        obj.GetComponent<Rigidbody>().useGravity = true;
+        cube.GetComponent<Rigidbody>().useGravity = true;
 	}
 
     // Update is called once per frame
@@ -38,17 +38,18 @@ public class PickObject : MonoBehaviour {
         if(!pickedUp)
         {
             guide.GetComponent<BoxCollider>().enabled = true;
+            cube.GetComponent<BoxCollider>().enabled = false;
 
-            obj.GetComponent<Rigidbody>().useGravity = false;
-            obj.GetComponent<Rigidbody>().isKinematic = true;
+            cube.GetComponent<Rigidbody>().useGravity = false;
+            cube.GetComponent<Rigidbody>().isKinematic = true;
 
             Vector3 pos = guide.transform.position;
             Vector3 newPos = new Vector3(pos.x, pos.y + 0.5F, pos.z);
-            obj.transform.position = newPos;
+            cube.transform.position = newPos;
 
-            obj.transform.rotation = guide.transform.rotation;
+            cube.transform.rotation = guide.transform.rotation;
 
-            obj.transform.parent = parent.transform;
+            cube.transform.parent = parent.transform;
 
             pickedUp = true;
         }
@@ -57,19 +58,20 @@ public class PickObject : MonoBehaviour {
     public void OnPutDown(bool look) // true == up, false == down
     {
         guide.GetComponent<BoxCollider>().enabled = false;
+        cube.GetComponent<BoxCollider>().enabled = true;
 
-        obj.GetComponent<Rigidbody>().useGravity = true;
-        obj.GetComponent<Rigidbody>().isKinematic = false;
+        cube.GetComponent<Rigidbody>().useGravity = true;
+        cube.GetComponent<Rigidbody>().isKinematic = false;
 
-        obj.transform.parent = null;
+        cube.transform.parent = null;
 
         if (look)
         {
-            obj.transform.position = guide.transform.position;
+            cube.transform.position = guide.transform.position;
         }
         else
         {
-            obj.transform.position = guide.transform.position + new Vector3(0, 1.5F, 0);
+            cube.transform.position = guide.transform.position + new Vector3(0, 1.5F, 0);
         }
     }
 }

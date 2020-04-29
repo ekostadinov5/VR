@@ -162,7 +162,7 @@ a90e94673f50d2237c1b971c138660c6 Assembly-CSharp-firstpass.dll:UnityStandardAsse
 57fde8e76fc7bce23deb0e799d336be7 Assembly-CSharp-firstpass.dll:UnityStandardAssets.Utility.SmoothFollow
 e1d67d2e24db6bb37e9d81529959a250 Assembly-CSharp.dll:GoogleVR.Beta.Demos.DemoSeeThroughController
 05524b8f659e7bfe5756d1335fec24ba Assembly-CSharp-firstpass.dll:UnityStandardAssets.CrossPlatformInput.MobileControlRig
-d44f74844ff34b3184850d5569a7f9b8 Assembly-CSharp.dll:.PickObject
+9cd39c912bb534cf8f54f0e6ab5db0fb Assembly-CSharp.dll:.PickObject
 05524b8f659e7bfe5756d1335fec24ba Assembly-CSharp-firstpass.dll:UnityStandardAssets.Utility.ObjectResetter
 8a939b111080eec7836eba1b428aa05d Assembly-CSharp.dll:.GvrTrackedController
 31e91faba2267dbf8c0fe528bca54ff7 Assembly-CSharp.dll:.GvrLaserPointer

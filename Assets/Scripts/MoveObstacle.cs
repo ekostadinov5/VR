@@ -30,6 +30,7 @@ public class MoveObstacle : MonoBehaviour {
         }
         if (gazeTime > requiredTime)
         {
+            buttonClickSound.Play();
             gazeTime = 0;
             timerImage.fillAmount = 0;
             GetComponent<Renderer>().material.color = Color.green;
@@ -52,6 +53,5 @@ public class MoveObstacle : MonoBehaviour {
     public void Move()
     {
         obstacle.transform.position = new Vector3(-12, obstacle.transform.position.y, obstacle.transform.position.z);
-        buttonClickSound.Play();
     }
 }

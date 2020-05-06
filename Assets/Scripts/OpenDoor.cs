@@ -35,6 +35,8 @@ public class OpenDoor : MonoBehaviour {
             }
             else
             {
+                doorSound.Stop();
+                doorSoundOn = false;
                 moving = false;
             }
         }
@@ -51,6 +53,8 @@ public class OpenDoor : MonoBehaviour {
             }
             else
             {
+                doorSound.Stop();
+                doorSoundOn = false;
                 moving = false;
             }
         }
@@ -59,21 +63,17 @@ public class OpenDoor : MonoBehaviour {
             doorSound.Play();
             doorSoundOn = true;
         }
-        else if(!moving)
-        {
-            doorSound.Stop();
-            doorSoundOn = false;
-        }
     }
 
     private void OnTriggerEnter(Collider other)
     {
-        clicked = true;
         buttonClickSound.Play();
+        clicked = true;
     }
 
     private void OnTriggerExit(Collider other)
     {
+        buttonClickSound.Play();
         clicked = false;
     }
 }

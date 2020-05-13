@@ -1,6 +1,6 @@
 Android
 PlayerPath?
-C:/Users/Evgenij/UnityProjects/VR - 171242/Build/vr.apk
+C:/Users/Evgenij/UnityProjects/VR/Build/vr.apk
 SceneListBegin?
 Assets/Scenes/startMenu.unity
 Assets/Scenes/startAgainMenu.unity
@@ -25,7 +25,7 @@ df374c01140c2d578bf70cbd60073d1d UnityEngine.Timeline.dll:UnityEngine.Timeline.T
 0ea7e3a1b65cd933d7a007e6774c4eaa Assembly-CSharp-firstpass.dll:UnityStandardAssets.Characters.ThirdPerson.AICharacterControl
 7481472d4e57e8477d484d43a43b79dc Assembly-CSharp-firstpass.dll:UnityStandardAssets.Characters.FirstPerson.FirstPersonController
 2b33457e820e7fe004585c42bda62af9 Assembly-CSharp.dll:.GameTimer
-f1dfc98b8f6c73d9aae12f4365a80ba8 Assembly-CSharp.dll:.MoveObstacle
+ad8829727720c8aca9e9c86714a0e31b Assembly-CSharp.dll:.MoveObstacle
 05524b8f659e7bfe5756d1335fec24ba Assembly-CSharp-firstpass.dll:.EventSystemChecker
 228303069e44eb1f7f68e3c0519e6057 Assembly-CSharp.dll:.GvrVideoPlayerTexture
 a35dc9cca2faebc5f5f1aeb9e8e47bbe UnityEngine.UI.dll:UnityEngine.UI.AspectRatioFitter

@@ -1,6 +1,5 @@
 ﻿using UnityEngine;
 using UnityEngine.Events;
-using UnityEngine.UI;
 
 public class MoveObstacle : MonoBehaviour {
     private bool clicked;

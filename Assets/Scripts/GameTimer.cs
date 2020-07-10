@@ -7,6 +7,8 @@ public class GameTimer : MonoBehaviour {
 
     public float timeLimit;
 
+    public static float currentTime;
+
 	// Use this for initialization
 	void Start () {
         timer = 0;
@@ -16,6 +18,8 @@ public class GameTimer : MonoBehaviour {
 	// Update is called once per frame
 	void Update () {
         timer += Time.deltaTime;
+
+        currentTime = timer;
 
         float timeLeft = timeLimit - timer;
         int minutes = (int)(timeLeft / 60);

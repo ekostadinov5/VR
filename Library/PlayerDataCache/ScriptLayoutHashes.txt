@@ -237,3 +237,4 @@ b2945430dfd6bbdb5d77043b47bf85e7 Assembly-CSharp.dll:.GvrControllerReticleVisual
 d885ad79a6ef5bfe2ce10637aac0b8a0 Assembly-CSharp.dll:GoogleVR.VideoDemo.AutoPlayVideo
 c24d48a90352de3c42bed4347f59af59 Assembly-CSharp.dll:GoogleVR.Beta.GvrBetaControllerVisualMulti
 0f3d4bb7128a287827d041c696039525 Assembly-CSharp-firstpass.dll:UnityStandardAssets.Utility.AutoMobileShaderSwitch
+7fd08ded144dad95834f225b8bf05403 Assembly-CSharp.dll:.DisplayTime

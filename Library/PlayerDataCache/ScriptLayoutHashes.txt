@@ -166,6 +166,7 @@ e1d67d2e24db6bb37e9d81529959a250 Assembly-CSharp.dll:GoogleVR.Beta.Demos.DemoSee
 05524b8f659e7bfe5756d1335fec24ba Assembly-CSharp-firstpass.dll:UnityStandardAssets.Utility.ObjectResetter
 8a939b111080eec7836eba1b428aa05d Assembly-CSharp.dll:.GvrTrackedController
 31e91faba2267dbf8c0fe528bca54ff7 Assembly-CSharp.dll:.GvrLaserPointer
+7fd08ded144dad95834f225b8bf05403 Assembly-CSharp.dll:.DisplayTime
 fc1e0f4d8439d9928083474691511a13 UnityEngine.Networking.dll:UnityEngine.Networking.NetworkAnimator
 05524b8f659e7bfe5756d1335fec24ba UnityEngine.Networking.dll:UnityEngine.Networking.NetworkBehaviour
 60b2bb652410a5867a5ab9a01cd38461 UnityEngine.Networking.dll:UnityEngine.Networking.NetworkDiscovery
@@ -237,4 +238,3 @@ b2945430dfd6bbdb5d77043b47bf85e7 Assembly-CSharp.dll:.GvrControllerReticleVisual
 d885ad79a6ef5bfe2ce10637aac0b8a0 Assembly-CSharp.dll:GoogleVR.VideoDemo.AutoPlayVideo
 c24d48a90352de3c42bed4347f59af59 Assembly-CSharp.dll:GoogleVR.Beta.GvrBetaControllerVisualMulti
 0f3d4bb7128a287827d041c696039525 Assembly-CSharp-firstpass.dll:UnityStandardAssets.Utility.AutoMobileShaderSwitch
-7fd08ded144dad95834f225b8bf05403 Assembly-CSharp.dll:.DisplayTime
